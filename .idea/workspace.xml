@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22cd8047-dddf-4686-8e30-49fad2a496b8" name="Default Changelist" comment="" />
+    <list default="true" id="22cd8047-dddf-4686-8e30-49fad2a496b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/ArticlesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/articles/ArticlesController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories/CategoriesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/categories/CategoriesController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/categories/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/categories/index.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +14,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Thiago\Desktop\Nova pasta\sistema\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1WH80n0M0EFNi1iTeJqFUHZ5ZXj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -46,20 +58,43 @@
       <option name="presentableId" value="Default" />
       <updated>1578794938917</updated>
       <workItem from="1578794941451" duration="44000" />
+      <workItem from="1578795066356" duration="427000" />
+      <workItem from="1578795628339" duration="132000" />
+      <workItem from="1578802031896" duration="123000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <created>1578795345726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578795345726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="117" key="CommitChangelistDialog2" timestamp="1578795119137">
+    <state x="560" y="117" key="CommitChangelistDialog2" timestamp="1578795341587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578795119137" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1578794971749">
+    <state x="560" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578795341587" />
+    <state x="184" y="92" key="DiffContextDialog" timestamp="1578795365252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578794971749" />
+    <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578795365252" />
+    <state x="678" y="194" width="998" height="708" key="SettingsEditor" timestamp="1578802153287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="678" y="194" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578802153287" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1578795373682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578795373682" />
   </component>
 </project>
