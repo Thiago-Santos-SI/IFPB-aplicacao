@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const category = require("./Category")
+const category = require("../models/Category")
 const slugify = require('slugify')
 
 
@@ -8,9 +8,9 @@ router.get("/admin/categories/new", (req, res)=>{
     res.render("admin/categories/new")
 })
 
-router.post("/categories/save", (req, res)=>{
+router.post("/categories/save",  (req, res)=>{
     var title = req.body.title;
-    if(title != undefined){
+    if(title != null){
 
         category.create({
             title: title,
@@ -32,11 +32,9 @@ router.get("/admin/categories", (req, res)=>{
     
 })
 
-
-
 router.post("/categories/delete", (req, res)=>{
     const id = req.body.id
-    if(id != undefined){
+    if(id != null){
         if (!isNaN(id)) {
         // destroy = methodo delete interno
             category.destroy({
@@ -80,17 +78,6 @@ router.post("/categories/update", (req, res)=>{
     const slug = req.body.slug
 
     category.update({title: title, slug: slugify(title)}, {
-        where:{
-            id: id
-        }
-    }).then(()=>{
-        res.redirect("/admin/categories")
-    }).catch((err)=>{
-        console.error(err);
-        
-    })
-
-    category.update( {slug: slug}, {
         where:{
             id: id
         }
