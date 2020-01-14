@@ -1,0 +1,2 @@
+# IFPB-aplicacao
+o objetivo especifico da gente é criar uma interface que seja de facil compreensão para que o aluno ao final do curso, consiga preencher um cadastro com todas as informações de um dessas formas  TCC do zero Relatorio de estágio Aproveitamento de pesquisa/extensão (que no final vira um tcc) Trabalho efetivo (pra quem tem carteira assinada em algum lugar que trabalha com tecnologia, pode usar essa carga horaria como forma de conclusão de curso)
